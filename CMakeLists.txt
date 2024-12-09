@@ -5,8 +5,8 @@ add_library(common STATIC
   )
 
 # Set RDMA-CORE
-include_directories(/home/mininet/rdma-core/build/include)
-link_directories(/home/mininet/rdma-core/build/lib)
+include_directories(/home/client/Desktop/rdma-core/build/include)
+link_directories(/home/client/Desktop/rdma-core/build/lib)
 link_libraries(rdmacm ibverbs common)
 
 # Target to build the client program
