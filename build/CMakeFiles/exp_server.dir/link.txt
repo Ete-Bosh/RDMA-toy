@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/exp_server.dir/rdma_server.c.o CMakeFiles/exp_server.dir/database.c.o -o exp_server   -L/home/client/Desktop/rdma-core/build/lib  -Wl,-rpath,/home/client/Desktop/rdma-core/build/lib -lrdmacm -libverbs libcommon.a 

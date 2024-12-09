@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/exp_client.dir/rdma_client.c.o -o exp_client   -L/home/client/Desktop/rdma-core/build/lib  -Wl,-rpath,/home/client/Desktop/rdma-core/build/lib -lrdmacm -libverbs libcommon.a 
