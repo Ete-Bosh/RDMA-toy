@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/client/Desktop/RDMA-toy/build",
+  "command": "/usr/bin/gcc -I/home/client/Desktop/rdma-core/build/include -g -o CMakeFiles/common.dir/common.c.o -c /home/client/Desktop/RDMA-toy/common.c",
+  "file": "/home/client/Desktop/RDMA-toy/common.c",
+  "output": "CMakeFiles/common.dir/common.c.o"
+},
+{
+  "directory": "/home/client/Desktop/RDMA-toy/build",
+  "command": "/usr/bin/gcc -I/home/client/Desktop/rdma-core/build/include -g -o CMakeFiles/exp_client.dir/rdma_client.c.o -c /home/client/Desktop/RDMA-toy/rdma_client.c",
+  "file": "/home/client/Desktop/RDMA-toy/rdma_client.c",
+  "output": "CMakeFiles/exp_client.dir/rdma_client.c.o"
+},
+{
+  "directory": "/home/client/Desktop/RDMA-toy/build",
+  "command": "/usr/bin/gcc -I/home/client/Desktop/rdma-core/build/include -g -o CMakeFiles/exp_server.dir/rdma_server.c.o -c /home/client/Desktop/RDMA-toy/rdma_server.c",
+  "file": "/home/client/Desktop/RDMA-toy/rdma_server.c",
+  "output": "CMakeFiles/exp_server.dir/rdma_server.c.o"
+},
+{
+  "directory": "/home/client/Desktop/RDMA-toy/build",
+  "command": "/usr/bin/gcc -I/home/client/Desktop/rdma-core/build/include -g -o CMakeFiles/exp_server.dir/database.c.o -c /home/client/Desktop/RDMA-toy/database.c",
+  "file": "/home/client/Desktop/RDMA-toy/database.c",
+  "output": "CMakeFiles/exp_server.dir/database.c.o"
+}
+]

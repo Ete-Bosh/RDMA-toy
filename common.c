@@ -2,6 +2,7 @@
 
 #include "common.h"
 
+/* Post all messages */
 int post_recv_all(struct rdma_cm_id *id, struct ibv_mr *mr,
 		  struct message *messages, size_t num_messages)
 {

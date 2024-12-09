@@ -141,7 +141,7 @@ static int run(void)
 	struct rdma_addrinfo hints, *res;
 	struct ibv_qp_init_attr init_attr;
 	struct ibv_qp_attr qp_attr;
-	int ret, i;
+	int ret;
 
 	memset(&hints, 0, sizeof hints);
 	hints.ai_flags = RAI_PASSIVE;

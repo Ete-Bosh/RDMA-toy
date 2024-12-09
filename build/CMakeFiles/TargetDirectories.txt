@@ -1,0 +1,5 @@
+/home/client/Desktop/RDMA-toy/build/CMakeFiles/common.dir
+/home/client/Desktop/RDMA-toy/build/CMakeFiles/exp_client.dir
+/home/client/Desktop/RDMA-toy/build/CMakeFiles/exp_server.dir
+/home/client/Desktop/RDMA-toy/build/CMakeFiles/edit_cache.dir
+/home/client/Desktop/RDMA-toy/build/CMakeFiles/rebuild_cache.dir

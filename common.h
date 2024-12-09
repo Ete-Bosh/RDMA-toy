@@ -24,6 +24,7 @@ enum message_type
 	MSG_QUERY_RESP = 4,
 	/* Exchange remote memory key (rkey) for the database and its address */
 	MSG_EXCHANGE_DATABASE_INFO = 5,
+	/* We don't need message type for one side operation*/
 };
 
 /* Information about the database allowing the client to remotely access it */

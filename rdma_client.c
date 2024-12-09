@@ -254,7 +254,7 @@ int interactive_menu()
 
 		rdma_write(msg);
 		LOG("RDMA_WRITE successfully: key=%d, value=%d\n", msg->key, msg->value);
-		break;
+		return 0;
 
 	default:
 		printf("Unknown selection: %d\n", menu_item);

@@ -1,5 +1,7 @@
 #include "database.h"
 
+#define NUM_KEYS (5 * 1024)
+
 int table[NUM_KEYS];
 
 /* Set a key and value in the database */
@@ -24,4 +26,4 @@ int query_key(int key, int *value)
 	return 0;
 }
 
-#define NUM_KEYS (32 * 1024)
+
