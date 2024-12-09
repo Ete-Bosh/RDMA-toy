@@ -134,6 +134,7 @@ int rdma_write(struct message *msg)
 	client_send_sge.length = (uint32_t) sizeof(int);
 	client_send_sge.lkey = send_mr->lkey;
 	/* now we link to the send work request */
+	client_send_wr.sg_list = &client_send_sge;
 	client_send_wr.num_sge = 1;
 	client_send_wr.opcode = IBV_WR_RDMA_WRITE;
 	client_send_wr.send_flags = IBV_SEND_SIGNALED;
@@ -174,11 +175,12 @@ int interactive_menu()
 	int ret;
 	int key, value;
 
-	printf("Enter next command:\n"
+	printf("\n"
+		   "Enter next command:\n"
 	       "  %d - disconnect and quit\n"
 	       "  %d - set key value pair\n"
 	       "  %d - query the value of a given key\n"
-	       "  %d - query using an RDMA Write operation\n",
+	       "  %d - set key using an RDMA Write operation\n",
 	       MENU_DISCONNECT,
 	       MENU_INTERACTIVE_SET,
 	       MENU_INTERACTIVE_QUERY,
