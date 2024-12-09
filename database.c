@@ -1,6 +1,6 @@
 #include "database.h"
 
-#define NUM_KEYS (5 * 1024)
+#define NUM_KEYS (8 * 1024)
 
 int table[NUM_KEYS];
 
